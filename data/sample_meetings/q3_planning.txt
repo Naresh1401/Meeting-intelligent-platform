@@ -1,0 +1,70 @@
+Q3 Product Roadmap Planning — September 18, 2024
+
+Attendees: Sarah (PM), James (Engineering Lead), Priya (Design), Tom (Marketing), Lisa (CEO)
+
+---
+
+Lisa: Alright, let's get started. We have a lot to cover today. The main goal is to finalize what we're shipping in Q3 and make sure we're aligned on priorities. Sarah, you want to kick us off?
+
+Sarah: Sure. So based on customer feedback from Q2, the three biggest asks were: faster onboarding, better reporting dashboards, and API rate limit increases. I've put together a proposed roadmap that addresses all three, but we need to make trade-offs because we can't do everything.
+
+James: Yeah, I want to flag early that the reporting dashboard work is significantly larger than we initially estimated. When Priya and I scoped it last week, we're looking at 6-8 weeks minimum if we want to do it properly — real-time data, custom widgets, export functionality. That pushes it to Q4.
+
+Priya: I agree with James. Rushing the dashboard would result in tech debt we'll be paying for a year. I'd rather do it right in Q4.
+
+Lisa: Okay, so reporting moves to Q4. What's the plan for onboarding?
+
+Sarah: The onboarding redesign is actually well-scoped. We're talking about a new interactive setup wizard, pre-built templates for the top 5 use cases, and an in-app help system. Priya already has the mockups done.
+
+Priya: Yes, the designs are ready to go. I just need two weeks with engineering to finalize the interaction details.
+
+James: Onboarding feels feasible in Q3. I'd say 4 weeks of engineering effort. We can start the week of September 23rd.
+
+Tom: From a marketing perspective, the onboarding improvements are gold. Our current 14-day activation rate is 34%. If we can get that to 50%, that's a massive impact on our paid conversion. I'd make this the number one priority.
+
+Lisa: Agreed. Onboarding is priority one for Q3. What about the API rate limits?
+
+James: Rate limits are actually a quick win. We can increase the default limits by 3x for paid plans in about a week of work. It's a config change plus some infrastructure scaling.
+
+Sarah: Great. So the Q3 plan is: onboarding redesign as the flagship initiative, plus the API rate limit increase as a quick win. Reporting moves to Q4 as a major initiative.
+
+Lisa: I'm happy with that. Let's make sure we communicate the reporting delay to the enterprise customers who've been asking. Sarah, can you handle that?
+
+Sarah: Yes, I'll draft the communication by end of this week and loop in Tom to review it before it goes out.
+
+Tom: Works for me. I also want to make sure we have a press release ready when we launch the new onboarding. The 14-day activation improvement is a good customer success story.
+
+Lisa: Agreed. Tom, coordinate with Sarah on the launch plan. What else?
+
+James: One thing I want to raise — we've had three incidents in the past month related to our job queue infrastructure. Nothing customer-facing yet, but I'm worried it will become a problem as we scale. I'd like to allocate one engineer to address this in Q3.
+
+Lisa: How urgent is it?
+
+James: I'd say medium-high. We haven't had a customer impact, but the risk is real. I'd rather fix it now than scramble when something breaks.
+
+Lisa: Okay, let's do it. One engineer on infrastructure, not to delay the onboarding work. Can you staff it without impacting onboarding?
+
+James: Yes, I'll have Marcus focus on the infrastructure while the rest of the team works on onboarding.
+
+Sarah: Should we add that to the official roadmap?
+
+Lisa: Yes. Add it as a technical initiative. James, can you write up a one-pager on the scope?
+
+James: I'll have it done by Friday.
+
+Lisa: Great. Anything else?
+
+Priya: Just want to confirm — are we doing a design review before engineering starts on onboarding? I want to make sure we catch anything before it's in code.
+
+James: Absolutely. Let's schedule that for September 25th, Wednesday. I'll send a calendar invite.
+
+Sarah: Perfect. I'll put together the updated roadmap doc and circulate it to everyone by tomorrow. Can people review and confirm by Thursday?
+
+Lisa: Yes, let's do that. One last thing — I'd like to do a brief check-in on Q3 progress in four weeks, October 16th. Sarah, can you own that?
+
+Sarah: On it.
+
+Lisa: Excellent. Thanks everyone. Good meeting.
+
+---
+End of meeting. Duration: approximately 35 minutes.
