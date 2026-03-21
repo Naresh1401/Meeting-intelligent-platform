@@ -1,5 +1,7 @@
 # Meeting Intelligence Platform
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Render-38bdf8?style=for-the-badge&logo=render)](https://meeting-intelligent-platform.onrender.com) [![GitHub](https://img.shields.io/badge/GitHub-Naresh1401-181717?style=for-the-badge&logo=github)](https://github.com/Naresh1401/Meeting-intelligent-platform)
+
 Automatically extract structured intelligence from meeting transcripts — action items with owners, decisions made, open questions, and semantic search across your entire meeting history.
 
 ## The Problem
