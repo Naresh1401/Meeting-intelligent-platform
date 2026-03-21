@@ -130,6 +130,16 @@ section[data-testid="stSidebar"] .stMarkdown { color: #c9d1d9; }
     background: rgba(255,255,255,0.03) !important;
     border-radius: 8px !important; color: #8b949e !important;
 }
+
+/* Streamlit overrides */
+footer, #MainMenu, .stDeployButton, div[data-testid="stDecoration"] { display: none !important; }
+[data-testid="stAppViewContainer"] { background: transparent !important; }
+[data-testid="stHeader"] { background: transparent !important; }
+[data-testid="stSidebarContent"] { background: transparent !important; }
+[data-testid="stBottomBlockContainer"] { background: transparent !important; }
+div[data-testid="stMetricValue"] > div { color: #e2e8f0 !important; }
+div[data-testid="stMetricDelta"] { color: #8b949e !important; }
+div[data-testid="stMetricLabel"] { color: #8b949e !important; }
 </style>
 """, unsafe_allow_html=True)
 
